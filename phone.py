@@ -31,7 +31,7 @@ def valid_number(phone_num):
 
 def main():
     while True:
-        phone_num = get_filter()
+        get_filter()
         valid_number(phone_num)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
